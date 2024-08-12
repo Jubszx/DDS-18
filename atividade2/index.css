@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(199, 199, 199);
+    width: 100vw;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.vermelho{
+    width: 100vw;
+    background-color: red;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+.verde{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    background-color: green;
+    height: 40%;
+
+}
+
+.cinza{
+    background-color: rgb(110, 110, 110);
+    bottom: 0;
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 25vh;
+    color: #fff;
+}
+
+
