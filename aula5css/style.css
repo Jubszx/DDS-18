@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
+body{
+    background-color: burlywood;
+    font-family:cursive;
+}
+P{
+    background-color:blanchedalmond;
+}
+#dir{
+    text-align: right;
+
+}
+#cent{
+    text-align: center;
+}
+#justificado{
+    text-align: justify;
+}
+
+#maiu{
+    text-transform: uppercase ;
+}
+
+#minu{
+    text-transform: lowercase;
+
+}
+#decorado{
+    text-decoration: overline underline
+    line-through;
+
+}
+h1{
+    text-shadow: 2px 2px white ;
+}
+
+#outrafonte{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20pt;
+    font-style: italic;
+    font-weight: 200;
+}
+
+#googlefonte{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: Matemasie-Regula;
+    src: url('./Matemasie-Regular.ttf');
+}
+
+#frontebaixada{
+    font-family:Matemasie-Reguls , sans-serif;
+    text-align: justify;
+}
