@@ -1,6 +1,61 @@
 body{
-    background-color: cyan;
+    background-color: rgb(32, 133, 192);
 }
-p{
-    background-color:chartreuse;
+
+.background-azul-claro {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 20px;
+}
+
+.paragrafo-verde-claro {
+    background-color: lightgreen;
+    padding: 10px;
+    margin: 20px;
+}
+
+.imagem-repetida-fixa {
+    background-image: url('https://s2.glbimg.com/JGwJWYMQI93ACc8C_mmTrixkzx0=/e.glbimg.com/og/ed/f/original/2015/03/25/universo1.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    height: 300px;
+    width: 800px;
+    margin: 20px;
+    color:  rgb(4, 207, 4);
+    font-size: 15pt;
+}
+
+.imagem-repetida-vertical {
+    background-image: url('https://segredosdomundo.r7.com/wp-content/uploads/2021/10/baleia-mais-solitaria-do-mundo-historia-e-curiosidades.png');
+    background-repeat: repeat-y;
+    height: 500px;
+    margin: 30px;
+    color: rgb(6, 24, 6);
+    font-size: 15pt;
+}
+
+.imagem-nao-repetida {
+    background-image: url('');
+    background-repeat: no-repeat;
+    height: 200px;
+    margin: 20px;
+}
+
+.centralizada {
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    margin: 20px;
+}
+
+.amarelo {
+    background-color: yellow;
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    height: 200px;
+    margin: 20px;
+    color: rgb(20, 146, 20);
 }
