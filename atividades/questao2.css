@@ -35,14 +35,14 @@ body{
 }
 
 .imagem-nao-repetida {
-    background-image: url('');
+    background-image: url('https://hypescience.com/wp-content/uploads/2024/01/o-menor-buraco-negro-do-universo-conhecido.jpg');
     background-repeat: no-repeat;
     height: 200px;
     margin: 20px;
 }
 
 .centralizada {
-    background-image: url('');
+    background-image: url('https://images.ecycle.com.br/wp-content/uploads/2022/10/05145956/david-mullins-3Jnws1iRSwk-unsplash-scaled.jpg.webp');
     background-repeat: no-repeat;
     background-position: center;
     height: 200px;
@@ -51,7 +51,7 @@ body{
 
 .amarelo {
     background-color: yellow;
-    background-image: url('');
+    background-image: url('https://www.cenariomt.com.br/wp-content/uploads/2024/03/os-signos-e-o-eclipse-da-lua-780x527.png');
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: scroll;
