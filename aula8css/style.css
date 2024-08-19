@@ -1,0 +1,53 @@
+body{
+    background-color:cadetblue;
+    height: 600px;
+}
+
+#tudo{
+    background-color: aquamarine;
+    padding: 5px;
+    display: inline-block;
+}
+
+.quand{
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin: 5px 10px;
+}
+
+#quand1{
+    background-color: red;
+    flex-shrink: 0;
+}
+
+#quand2{
+    background-color: yellow;
+}
+
+#quand3{
+    background-color: green;
+}
+
+#container{
+    background-color: black;
+    padding: 5px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+#container2{
+    background-color:antiquewhite;
+    display: grid;
+    height: 600px;
+    grid-template: 60vh auto / auto 20% auto;
+    grid-gap: 10px;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
