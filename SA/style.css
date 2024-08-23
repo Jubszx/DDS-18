@@ -1,0 +1,142 @@
+body {
+    background-color: whitesmoke;
+    color: rgb(32, 41, 173);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(32, 41, 173);
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    background-color: rgb(32, 41, 173);
+    border-radius: 8px;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logo-icon {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+
+.logo-text {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgb(243, 171, 21);
+    transition: 0.3s all;
+}
+
+#inscreva-se-btn {
+    border: 2px solid white;
+    padding: 9px;
+    border-radius: 15px;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left
+}
+
+
+.cursos {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.curso {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.curso h2 {
+    font-size: 1.2rem;
+    color: rgb(32, 41, 173);
+    margin-bottom: 0.5rem;
+}
+
+.curso p {
+    font-size: 0.9rem;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.botao:hover {
+    background-color: #0056b3;
+}
+
+.botao:active {
+    transform: scale(0.98);
+}
+
+.botao:focus {
+    outline: none;
+}
+
+p {
+    color: black;
+}
