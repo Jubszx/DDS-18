@@ -134,3 +134,33 @@ a:hover {
         flex-direction: column;
     }
 }
+footer {
+    background-color: rgb(32, 41, 173);
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.bla {
+   display: flex;
+   justify-content: center;
+   color: #fff;
+   gap: 1rem;
+}
+
+.bla p{
+   
+    color: #fff;
+ }
+
+.blu{
+    margin-top: 20px;
+    font-size: 0.8em;
+}
+
+.blu p {
+    color: white;
+}
